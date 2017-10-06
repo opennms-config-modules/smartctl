@@ -30,7 +30,7 @@ NOTE: You can use any other location, just make sure the extend commands and the
 
 [source, bash]
 ----
-extend smart_health /bin/bash -c 'sudo /usr/local/bin/check_smart_disk_raid.sh'
+extend smart_health /bin/bash -c 'sudo /usr/local/bin/check_smart_disk.sh'
 ----
 
 To enable the extend directive, the SNMP agent needs to be restarted with
