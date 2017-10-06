@@ -1,0 +1,2 @@
+snmp ALL = NOPASSWD: /usr/sbin/smartctl
+snmp ALL = NOPASSWD: /usr/local/bin/check_smart_disk.sh
